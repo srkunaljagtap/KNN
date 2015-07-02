@@ -1,0 +1,15 @@
+function [error] = Misclassification_error(test_labels, test_Predicted_labels)
+%% this is the matlab Implementation for KNN misclassification error
+% if you have labels for your test data set
+% use KNN.m to find the predicted labels for test samples.
+% then you can use this function to find misclassification error for your 
+% test data set
+% Input arguments: 
+% test_labels : Known labels of your test data
+% test_predicted_labels : predicted test labels
+[Ltest,~] = size(test_labels);
+
+if Ltest != size(test_labels)
+
+
+end
